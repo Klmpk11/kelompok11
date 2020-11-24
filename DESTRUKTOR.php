@@ -1,29 +1,25 @@
 <?php
-   //php 7.3.0
-   echo "Hello, Dcoder! "
-
- ?>
- //class manusia 
- class manusia (
+ //class buah
+ class buah (
    //property 
-   var $nama; 
+   var $buah; 
    var $warna; 
    //method construct dijalankan pertama kali
-   function ___ construct (){
+   function_construct (){
      echo "ini adalah isi method construct </br>"
      }
    //method destruct dijalankan terakhir
-   function ___ destruct (){
-     echo"ini adalah isi method destruct </br>"; 
+   function_destruct (){
+     echo "ini adalah isi method destruct </br>"; 
      
    }
-   //method manusia 
-   function tampilkan nama (){
-     return "nama saya pulung_koding </br> "; 
+   //method buah 
+   function tampilkan_buah (){
+     return "Saya Adalah Buah Anggur </br> "; 
    }
    
    }
-   //instansiasi class manusia 
-   $manusia = new manusia (); 
-   //memanggil method tampilkan_nama dari class manusia 
-   echo $manusia ">tampilkan_nama();
+   //instansiasi class buah 
+   $buah = new buah (); 
+   //memanggil method tampilkan_nama dari class buah
+   echo $buah ">tampilkan_buah();
