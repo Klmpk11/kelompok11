@@ -1,23 +1,23 @@
 <?php
-   //class manusia
-   class manusia{
+   //class buah
+   class buah{
      //menentukan property dengan procted
-     procted $nama = "Pulung Koding";
+     procted $buah = "Jeruk";
      
      //method protected
-     protected funtion nama() {
-         return "Nama saya " .$this->nama;
+     protected funtion buah() {
+         return "Saya adalah buah " .$this->nama;
      }
      
-     public function tampilkan_nama() {
-         return $this->tampilkan_nama;
+     public function tampilkan_buah() {
+         return $this->tampilkan_buah;
      }
    }
    
-   //instansiasi class manusia
-   $manusia = new manusia();
+   //instansiasi class buah
+   $buah = new buah();
    
-   //memanggil method public tampilkan_nama dari class manusia
-   echo $manusia->tampilkan_nama();
+   //memanggil method public tampilkan_nama dari class buah
+   echo $buah->tampilkan_buah();
 
  ?>
