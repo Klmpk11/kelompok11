@@ -1,21 +1,17 @@
 <?php
-   //php 7.3.0
-   echo "Hello, Dcoder! "
-
- ?>
- //class manusia 
- class manusia  {
-   //prop
-   public  $nama; 
+ //class buah 
+ class buah{
+   //property
+   public  $buah; 
    public  $warna; 
    
-   //method manusia 
-   function tampilkan_nama (){
-     return "nama saya pulung_coding </br>"; 
+   //method buah 
+   function tampilkan_buah (){
+     return "Apel berwarna merah </br>"; 
    }
  }
- //instansiasi class manusia 
- $manusia = new manusia (); 
+ //instansiasi class buah 
+ $buah = new buah (); 
  
- //memanggil method tampilkan_nama dari class manusia
- echo  $manusia "> tampilkan_nama ();
+ //memanggil method tampilkan_buah dari class buah
+ echo  $buah "> tampilkan_buah ();
