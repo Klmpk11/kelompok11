@@ -1,6 +1,6 @@
 <?php
 //cara penulisan class OOP PHP - @pulung_koding
-class nama_class{
+class buah{
 
   //isi dari class ini
 
