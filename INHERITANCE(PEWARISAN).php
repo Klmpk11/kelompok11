@@ -1,39 +1,39 @@
 <?php
 
-// class parent
-class manusia{
+// class buah
+class buah{
   
-  // property class manusia
-  public $nama_saya;
+  // property class buah
+  public $nama_buah;
   
-  // method pada class manusia
-  function berinama($saya) {
-      $this->nama_saya=$saya;
+  // method pada class buah
+  function berinama($buah) {
+      $this->nama_buah=$buah;
   }
 }
 
-// class turunan atau sub class dari class manusia
+// class turunan atau sub class dari class buah
 // kita menghubungkan class dengan syntax extends
-class teman extends manusia{
+class warna extends buah{
   
-    //property class teman
-    public $nama_teman;
+    //property class warna
+    public $jenis_warna;
     
-    // method pada class teman
-    function berinamateman($teman){
-        $this->nama_teman=$teman;
+    // method pada class warna
+    function beriwarna($warna){
+        $this->jenis_warna=$warna;
     }
 }
 
-// instansiasi class teman
-$malasngoding = new teman;
+// instansiasi class warna
+$warnabuah = new buah;
 
-// method beri nama adalah method pada class manusia, tapi kita bisa
-$malasngoding->berinama(" Pulung coding ");
-$malasngoding->berinamateman(" Lia ");
+// method jenis warna adalah method pada class buah, tapi kita bisa
+$warnabuah->jeniswarna(" Merah ");
+$warnabuah->jeniswarnaa(" Hijau ");
 
 // menampilkan isi property
-echo "Nama Saya : " . $malasngoding->nama_saya . "<br/>";
-echo "Nama Teman Saya : " . $malasngoding->nama_teman;
+echo "Apel berwarna : " . $warnabuah->nama_buah . "</br>";
+echo "Alpukat berwarna : " . $warnabuah->jenis_warna;
 
 ?>
