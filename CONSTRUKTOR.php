@@ -1,22 +1,22 @@
 <?php
-//class manusia
-class manusia {
+//class buah
+class buah {
          //property
-         var $nama ;
+         var $buah ;
          var $warna ;
 
          function _construct ()  {
                   echo  "ini adalah isi method construct </br>";
          }
 
-         //method manusia 
-         function tampilkan_nama() {
-                  return "nama saya pulung_coding </br>";
+         //method buah 
+         function tampilkan_buah() {
+                  return "Aku adalah buah jeruk </br>";
          }
 
 }
-//instansiasi class manusia 
-$manusia = new manusia() ; 
+//instansiasi class buah 
+$buah = new buah() ; 
 
-//memanggil method tampilkan nama dari class manusia 
-echo $manusia -> tampilkan_nama () ;
+//memanggil method tampilkan nama dari class buah 
+echo $buah -> tampilkan_buah () ;
