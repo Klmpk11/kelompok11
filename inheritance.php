@@ -4,36 +4,36 @@
 class buah{
   
   // property class buah
-  public $nama_buah;
+  public $buah_saya;
   
   // method pada class buah
-  function berinama($buah) {
-      $this->nama_buah=$buah;
+  function berinama($saya) {
+      $this->buah_saya=$saya;
   }
 }
 
 // class turunan atau sub class dari class buah
 // kita menghubungkan class dengan syntax extends
-class warna extends buah{
+class teman extends buah{
   
     //property class warna
-    public $jenis_warna;
+    public $buah_teman;
     
-    // method pada class warna
-    function beriwarna($warna){
-        $this->jenis_warna=$warna;
+    // method pada class buah teman
+    function berinamateman($teman){
+        $this->buah_teman=$teman;
     }
 }
 
-// instansiasi class warna
-$warnabuah = new buah;
+// instansiasi class buah teman
+$buah = new teman;
 
-// method jenis warna adalah method pada class buah, tapi kita bisa
-$warnabuah->jeniswarna(" Merah ");
-$warnabuah->jeniswarnaa(" Hijau ");
+// method buah teman adalah method pada class buah
+$buah->berinama(" Buah Apel ");
+$buah->berinamateman(" Buah Jeruk ");
 
 // menampilkan isi property
-echo "Apel berwarna : " . $warnabuah->nama_buah . "</br>";
-echo "Alpukat berwarna : " . $warnabuah->jenis_warna;
+echo "Buah Yang Saya Miliki Adalah : " .$buah->buah_saya . "<br/>" ;
+echo " Buah Yang Teman Saya Miliki Adalah : " .$buah->buah_teman;
 
 ?>
