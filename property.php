@@ -1,9 +1,9 @@
 <?php
 //cara penulisan class dan property OOP PHP - @pulung_coding
-class baju {          //class baju
+class buah{          //class buah
+  var $nama;          //property nama
   var $warna;          //property warna
-  var $merek;          //property merek
-  var $ukuran;          //property ukuran
+  var $bentuk;          //property bentuk
   
   
   
