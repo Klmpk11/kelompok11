@@ -1,17 +1,26 @@
 <?php
-class buah {
-        
-         var $buah ;
-         var $warna ;
 
-         function_construct ()  {
-                  echo  "ini adalah isi method construct <br>";
-         }
- 
-         function tampilkan_nama () {
-                  return "Aku adalah buah jeruk <br>";
-         }
-
-} 
-$buah = new buah() ; 
-echo $buah-> tampilkan_nama () ;
+   //class manusia
+   class buah{
+     //property
+     var $nama;
+     var $warna;
+     
+     function __construct(){
+       echo "ini adalah isi method construct <br>";
+       
+       }
+       
+       //method buah
+       function tampilkan_nama(){
+       return " Saya adalah buah pir";
+       
+       }
+      
+      }
+      //instansiasi class buah
+      $buah = new buah ();
+      
+      //memanggil method tampilkan_nama dari class buah
+      echo $buah->tampilkan_nama();
+?>
