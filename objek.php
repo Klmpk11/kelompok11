@@ -1,20 +1,22 @@
 <?php
 //PHP OOP part 2  pengertian class, object, property dan method
-//class hewan {
-            //property
-            var $hewan;
-            var $kelamin;
-            //method hewan
-            function nama_hewan () {
-                     retrun "Saya adalah seekor singa </br>";
-             }
-             function jenis_kelamin () {
-                      retrun "Saya seekor singa jantan  </br>";
-             }
+class buah{
+  //property
+  var $nama;
+  var $warna;
+  
+  //method buah
+  function tampilkan_nama(){
+    return "Saya adalah buah apel </br>";
+       }
+  function warna_buah(){
+    return " Apel berwarna merah  </br>";
+      }
 }
-//instansiasi class hewan 
-$hewan = new hewan () ;
-//memanggil method nama_hewan dari class hewan 
-echo $hewan=>nama_hewan () ;
-//memanggil method jenis_kelamin dari class manusia
-echo $hewan=>jenis_kelamin ()
+//instansiasi class buah
+$buah = new buah();
+//memanggil method nama_buah dari class buah
+echo $buah->tampilkan_nama();
+//memanggil method warna_buah dari class buah
+echo $buah->warna_buah();
+?>
