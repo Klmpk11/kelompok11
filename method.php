@@ -1,17 +1,17 @@
 <?php
 //cara penulisan class dan property OOP PHP - @pulung_coding
-class baju{
+class buah{
     //property OOP
+    var $nama;
     var $warna;
-    var $merek;
-    var $ukuran;
+    var $bentuk;
     
     //method OOP
-    function jumlah() {
-        echo "Saya membeli tiga baju </br>";
+    function nama(){
+        echo "Saya adalah anggur </br>";
 }
-    function warna() {
-        echo "Saya pesan baju berwarna biru </br>";
+    function warna(){
+        echo "Anggur berwarna merah </br>";
       }
       
 }
