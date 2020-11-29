@@ -1,5 +1,6 @@
 <?php
-class nama_class{
+class buah{
+
 
 }
 ?>
