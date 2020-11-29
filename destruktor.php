@@ -1,26 +1,25 @@
 <?php
- class buah {
+ class buah{
    
    var $buah; 
    var $warna; 
  
-   function_construct (){
-     echo "ini adalah isi method construct </br>"
+   function __construct(){
+     echo "ini adalah isi method construct </br>";
      }
   
-   function_destruct (){
+   function __destruct(){
      echo "ini adalah isi method destruct </br>"; 
      
    }
  
-   function tampilkan_buah (){
-     return "Saya Adalah Buah Anggur </br> "; 
+   function tampilkan_nama(){
+     return " Saya Adalah Buah Anggur </br> "; 
    }
    
    }
 
    $buah = new buah (); 
-   echo $buah ">tampilkan_buah();
+   echo $buah->tampilkan_nama();
 
    ?>
-
